@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Magical Journal – Privacy Policy | Otedev OÜ</title>
+<meta name="description" content="How Magical Journal handles journal entries, AI requests, accounts, ads, purchases and deletion. English and Estonian.">
+<link rel="canonical" href="https://otedev.ee/magical-journal/privacy/">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<nav aria-label="Page navigation"><a href="/">Otedev OÜ</a><a href="#en" lang="en">English</a><a href="#et" lang="et">Eesti keeles</a></nav>
+<main><section id="en">
+<h1>Magical Journal – Privacy Policy</h1>
+<p class="muted">Last updated: 17 November 2026</p>
+<p>This policy explains how Magical Journal (also called Grimoire in the app) handles your information.</p>
+<h2>1. Who is responsible</h2>
+<p>Otedev OÜ, Estonia, is the data controller. Contact us at <a href="mailto:info@otedev.ee">info@otedev.ee</a> or through <a href="https://otedev.ee/">otedev.ee</a>.</p>
+<h2>2. Your journal and AI responses</h2>
+<p>Your journal history — entries, generated responses, dates and language — is saved in the app's local storage on your device. The app does not synchronise this history to our account database. Your operating system's backup settings and any exports you make may create additional copies.</p>
+<p><strong>When you request an AI response, your submitted entry leaves your device.</strong> It passes through our Google Cloud Functions backend to Google's Gemini API, together with instructions about the requested response style. The backend returns the generated response. It does not intentionally save entries or responses as a cloud journal. This is not an end-to-end encrypted or entirely offline diary.</p>
+<p>We use the paid Gemini API. Under its paid-service terms, Google does not use submitted prompts or generated responses to improve its products.</p>
+<p>Google may retain API inputs and outputs temporarily for security and abuse prevention. Its applicable <a href="https://ai.google.dev/gemini-api/terms">Gemini API terms</a> govern that processing; sending a request does not mean that every provider copy is immediately erased after the response.</p>
+<p>Please avoid entering sensitive health information, financial credentials, secrets or personal information about others. AI responses are entertainment, not professional advice. We do not use them to make decisions with legal or similarly significant effects about you.</p>
+<h2>3. Account, usage and purchases</h2>
+<ul>
+<li><strong>Sign-in:</strong> Firebase Authentication processes your account ID and information supplied by Google or Apple sign-in, such as your email, display name and profile image where provided. We do not receive your Google or Apple password.</li>
+<li><strong>Cloud account:</strong> we store your account profile, spell balance and timestamps, monthly AI request counts, and records used to enforce request limits.</li>
+<li><strong>Purchases and rewards:</strong> we process product and transaction identifiers, purchase-verification data, credited spells and reward records to deliver purchases, validate rewarded ads and prevent duplicate credit. Payment card details are handled by the app store, not collected by the app.</li>
+<li><strong>Support:</strong> if you email us, we receive your email address and the information you choose to include.</li>
+</ul>
+<p>Signing in and sending an entry are necessary to generate an AI response. Without those data, that feature cannot operate. Purchases and rewarded-ad viewing are optional.</p>
+<h2>4. Technical data and advertising</h2>
+<p>Google Firebase services provide authentication, Firestore storage, Cloud Functions, Remote Config, App Check and Crashlytics. They process technical information such as IP addresses, installation identifiers, app/device information, integrity tokens, errors and crash traces for configuration, security and troubleshooting. Our usage counters are linked to your account; they are not anonymous statistics.</p>
+<p>Google AdMob provides rewarded ads. It may process IP addresses and approximate location, advertising or device identifiers, ad impressions, interactions and diagnostics. Your account ID is used to verify and credit ad rewards. Journal text is not included in our ad-reward requests.</p>
+<p>The app uses Google's consent flow before requesting ads. Where available, open the information panel and select <strong>Privacy settings</strong> to review your choices. Refusing personalised advertising does not necessarily prevent all advertising or technical processing. See <a href="https://policies.google.com/technologies/partner-sites">Google's partner-app data information</a>.</p>
+<h2>5. Purposes and legal bases</h2>
+<ul>
+<li><strong>Providing the service — GDPR Article 6(1)(b):</strong> sign-in, requested AI responses, spell balances, purchases and rewards.</li>
+<li><strong>Legitimate interests — Article 6(1)(f):</strong> protecting accounts, preventing fraud, enforcing limits, diagnosing faults and responding to support requests. Our interests are operating a secure, reliable service.</li>
+<li><strong>Consent — Article 6(1)(a):</strong> advertising personalisation and device access where consent is required. You can withdraw consent through the available privacy controls; withdrawal does not affect earlier lawful processing.</li>
+<li><strong>Legal obligation — Article 6(1)(c):</strong> records or disclosures required by applicable law.</li>
+</ul>
+<h2>6. Recipients and international processing</h2>
+<p>Relevant recipients include Google/Firebase for hosting and account services, Google Gemini for AI generation, Google AdMob and the partners identified in its consent form for ads, and Google Play or Apple for sign-in and store transactions. Providers may act as processors or independently under their own terms, depending on the service. We may also disclose data when legally required.</p>
+<p>Our AI backend is configured in Google's europe-north1 region. That does not mean all processing stays in the EU: authentication, AI, advertising and diagnostics may involve other countries, including the United States. Relevant provider agreements describe safeguards such as EU standard contractual clauses. You can ask us for information about the safeguards applicable to your data. See <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>, <a href="https://policies.google.com/privacy">Google's privacy policy</a> and <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
+<p>When you export or share journal content, the recipient or app you select receives that content under its own privacy practices.</p>
+<h2>7. Retention and deletion</h2>
+<ul>
+<li><strong>Local journal:</strong> retained until the app's stored data is cleared, including through successful in-app account deletion on that device. Copies on other devices, exports and operating-system backups must be managed separately.</li>
+<li><strong>Account and associated cloud records:</strong> retained while your account exists, unless deleted earlier. The automatic cleanup is designed to remove accounts with recorded AI activity after more than 180 days without an AI request if no spells remain. Accounts with a remaining balance are excluded; this is not a blanket six-month deletion rule.</li>
+<li><strong>Diagnostics and provider copies:</strong> separate provider retention applies. Firebase documents 90 days for Crashlytics crash information before deletion begins, and up to 180 days to remove deleted Authentication data from live and backup systems. Account deletion does not instantly erase every service log.</li>
+<li><strong>Support correspondence and legally required records:</strong> retained for handling the request, resolving related disputes and meeting applicable legal obligations; retention depends on the nature of the record and obligation.</li>
+</ul>
+<p id="delete-account"><strong>Delete your account:</strong> open the account panel, choose <strong>Delete Account</strong> and confirm. This removes your authentication account, cloud profile, spell balance, related purchase/reward and usage records, and local journal on the current device when deletion completes successfully. It does not delete your Google or Apple account.</p>
+<p>You can also request deletion by emailing <a href="mailto:info@otedev.ee?subject=Magical%20Journal%20account%20deletion">info@otedev.ee</a> with the subject “Magical Journal account deletion”, preferably from your sign-in email. We may ask for proportionate proof of ownership. Do not send passwords or journal entries. A remote request cannot erase local files or copies you have shared, and app stores may retain their transaction records independently.</p>
+<h2>8. Your rights</h2>
+<p>Subject to the GDPR's conditions, you may request access, correction, deletion, restriction or portability of your data, and object to processing based on legitimate interests. Contact <a href="mailto:info@otedev.ee">info@otedev.ee</a>. We normally respond within one month; if a lawful extension is needed, we will explain it. You can complain to the Estonian Data Protection Inspectorate at <a href="https://www.aki.ee/">aki.ee</a> or your local supervisory authority.</p>
+<h2>9. Age and changes</h2>
+<p>Magical Journal is intended only for adults aged 18 and over. It is not intended for children or teenagers under 18. If you believe someone under 18 has provided personal data through the app, please contact <a href="mailto:info@otedev.ee">info@otedev.ee</a> so we can investigate and take appropriate action, including deletion where applicable.</p>
+<p>We will update this page when our data practices change and revise the date above. Material changes will be brought to users' attention where required.</p></section><hr>
+<section lang="et" id="et">
+<h1>Magical Journal – privaatsuspoliitika</h1>
+<p class="muted">Viimati uuendatud: 17. november 2026</p>
+<p>Siin selgitame, kuidas Magical Journal (rakenduses ka Grimoire) sinu andmeid töötleb.</p>
+<h2>1. Vastutav töötleja</h2>
+<p>Vastutav töötleja on Otedev OÜ, Eesti. Kontakt: <a href="mailto:info@otedev.ee">info@otedev.ee</a>, veebileht <a href="https://otedev.ee/">otedev.ee</a>.</p>
+<h2>2. Päevik ja AI-vastused</h2>
+<p>Päeviku ajalugu — sissekanded, genereeritud vastused, kuupäevad ja keel — salvestatakse sinu seadmesse. Rakendus ei sünkrooni seda ajalugu meie kontoandmebaasi. Operatsioonisüsteemi varundusseaded ja sinu tehtud ekspordid võivad luua lisakoopiaid.</p>
+<p><strong>AI-vastuse küsimisel saadetakse sisestatud tekst seadmest välja.</strong> See liigub meie Google Cloud Functionsi serveri kaudu Google Gemini API-sse koos vastuse stiili juhistega. Server tagastab genereeritud vastuse ega salvesta sissekandeid või vastuseid teadlikult pilvepäevikuna. Tegemist ei ole läbivalt krüpteeritud ega täielikult võrguühenduseta päevikuga.</p>
+<p>Kasutame tasulist Gemini API-t. Selle tasulise teenuse tingimuste järgi ei kasuta Google saadetud sisendeid ega genereeritud vastuseid oma toodete täiustamiseks.</p>
+<p>Google võib API sisendeid ja väljundeid turvalisuse ning kuritarvituste ennetamise eesmärgil ajutiselt säilitada. Seda reguleerivad kohaldatavad <a href="https://ai.google.dev/gemini-api/terms">Gemini API tingimused</a>. Vastuse saamine ei tähenda kõigi teenusepakkuja koopiate kohest kustutamist.</p>
+<p>Palun ära sisesta tundlikke terviseandmeid, maksevahendite juurdepääsuandmeid, saladusi ega teiste inimeste isikuandmeid. AI-vastused on meelelahutus, mitte erialane nõuanne. Me ei tee nende põhjal sinu kohta õigusliku või muu samaväärse olulise mõjuga otsuseid.</p>
+<h2>3. Konto, kasutusandmed ja ostud</h2>
+<ul>
+<li><strong>Sisselogimine:</strong> Firebase Authentication töötleb konto tunnust ning Google'i või Apple'i edastatud andmeid, näiteks e-posti, kuvatavat nime ja profiilipilti, kui need edastatakse. Me ei saa sinu Google'i ega Apple'i parooli.</li>
+<li><strong>Pilvekonto:</strong> säilitame kontoprofiili, loitsusaldo, ajatemplid, igakuised AI-päringute loendurid ja päringupiirangute rakendamiseks vajalikud kirjed.</li>
+<li><strong>Ostud ja reklaamitasud:</strong> töötleme toote- ja tehingutunnuseid, ostu kontrollimise andmeid, lisatud loitse ning reklaamitasu kirjeid ostude täitmiseks ja korduva krediteerimise vältimiseks. Maksekaardi andmeid töötleb äpipood, rakendus neid ei kogu.</li>
+<li><strong>Kasutajatugi:</strong> meile kirjutades saame sinu e-posti aadressi ja sõnumis esitatud info.</li>
+</ul>
+<p>AI-vastuse loomiseks on vajalik sisselogimine ja teksti saatmine. Ilma nendeta see funktsioon ei toimi. Ostud ja tasustatud reklaamide vaatamine on vabatahtlikud.</p>
+<h2>4. Tehnilised andmed ja reklaamid</h2>
+<p>Kasutame Firebase Authenticationi, Firestore'i, Cloud Functionsi, Remote Configi, App Checki ja Crashlyticsi. Need töötlevad seadistamiseks, turvalisuseks ja vigade lahendamiseks näiteks IP-aadresse, paigalduse tunnuseid, rakenduse ja seadme infot, tervikluse kontrolli tõendeid ning vea- ja krahhiandmeid. Meie kasutusloendurid on kontoga seotud ega ole anonüümne statistika.</p>
+<p>Google AdMob näitab tasustatud reklaame ning võib töödelda IP-aadressi ja ligikaudset asukohta, reklaami- või seadmetunnuseid, reklaamide vaatamisi, puudutusi ja diagnostikat. Konto tunnust kasutatakse reklaamitasu kontrollimiseks ja loitsude lisamiseks. Päeviku teksti meie reklaamitasu päringud ei sisalda.</p>
+<p>Enne reklaamide küsimist kasutab rakendus Google'i nõusolekuvoogu. Kui vastav valik on saadaval, ava infopaneel ja vali <strong>Privaatsusseaded</strong>. Isikupärastatud reklaamidest loobumine ei pruugi lõpetada kogu reklaami ega tehnilist andmetöötlust. Vaata <a href="https://policies.google.com/technologies/partner-sites?hl=et">Google'i selgitust partnerrakenduste andmekasutuse kohta</a>.</p>
+<h2>5. Eesmärgid ja õiguslikud alused</h2>
+<ul>
+<li><strong>Teenuse osutamine — IKÜM art 6 lg 1 p b:</strong> sisselogimine, küsitud AI-vastus, loitsusaldo, ostud ja reklaamitasud.</li>
+<li><strong>Õigustatud huvi — p f:</strong> kontode kaitse, pettuste vältimine, päringupiirangud, vigade diagnoosimine ja tugipäringutele vastamine. Meie huvi on pakkuda turvalist ja töökindlat teenust.</li>
+<li><strong>Nõusolek — p a:</strong> reklaamide isikupärastamine ja seadmele juurdepääs, kui nõusolek on nõutav. Nõusoleku saab privaatsusvalikutes tagasi võtta; see ei mõjuta varasema töötlemise õiguspärasust.</li>
+<li><strong>Seadusest tulenev kohustus — p c:</strong> seadusega nõutud dokumentide säilitamine või andmete avaldamine.</li>
+</ul>
+<h2>6. Saajad ja rahvusvaheline töötlemine</h2>
+<p>Andmeid saavad vastava funktsiooni ulatuses Google/Firebase, Google Gemini, Google AdMob ja nõusolekuvormis nimetatud reklaamipartnerid ning Google Play või Apple. Teenusest olenevalt tegutsevad nad volitatud töötlejana või iseseisvalt oma tingimustel. Andmeid võime avaldada ka seadusest tuleneva kohustuse korral.</p>
+<p>AI-server on seadistatud Google'i europe-north1 piirkonda. Kõik töötlemistoimingud ei pruugi siiski toimuda EL-is: autentimine, AI, reklaamid ja diagnostika võivad hõlmata muid riike, sealhulgas USA-d. Teenusepakkujate lepingutes kirjeldatakse kaitsemeetmeid, näiteks EL-i lepingu tüüptingimusi. Sinu andmetele kohalduvate kaitsemeetmete kohta saad meilt teavet küsida. Vaata <a href="https://firebase.google.com/support/privacy">Firebase'i andmekaitseinfot</a>, <a href="https://policies.google.com/privacy">Google'i privaatsuspoliitikat</a> ja <a href="https://www.apple.com/legal/privacy/">Apple'i privaatsuspoliitikat</a>.</p>
+<p>Kui ekspordid või jagad päeviku sisu, saab valitud saaja või rakendus selle sisu ning rakenduvad tema andmekaitsetingimused.</p>
+<h2>7. Säilitamine ja kustutamine</h2>
+<ul>
+<li><strong>Kohalik päevik:</strong> säilib rakenduse andmete kustutamiseni, sealhulgas konto eduka kustutamiseni selles seadmes. Teiste seadmete koopiad, ekspordid ja operatsioonisüsteemi varukoopiad tuleb eraldi hallata.</li>
+<li><strong>Konto ja seotud pilvekirjed:</strong> säilivad konto olemasolu ajal, kui neid varem ei kustutata. Automaatne puhastus on kavandatud kustutama kontod, millel on registreeritud AI-kasutus, viimasest AI-päringust on möödunud üle 180 päeva ja loitsusaldo on null. Allesoleva saldoga kontod jäetakse alles; see pole kõigi kontode kuuekuuline säilitustähtaeg.</li>
+<li><strong>Diagnostika ja teenusepakkujate koopiad:</strong> neile kehtivad eraldi tähtajad. Firebase'i dokumentatsiooni järgi algab Crashlyticsi krahhiandmete kustutamine 90 päeva järel ning kustutatud autentimisandmete eemaldamine põhi- ja varusüsteemidest võib võtta kuni 180 päeva. Konto kustutamine ei eemalda hetkega kõiki teenuselogisid.</li>
+<li><strong>Tugikirjavahetus ja seadusega nõutud dokumendid:</strong> säilitame neid päringu lahendamiseks, seotud vaidluste käsitlemiseks ja õiguslike kohustuste täitmiseks vajaliku aja; kestus sõltub dokumendist ja kohustusest.</li>
+</ul>
+<p id="konto-kustutamine"><strong>Konto kustutamiseks</strong> ava kontopaneel, vali <strong>Kustuta konto</strong> ja kinnita. Eduka kustutamise korral eemaldatakse autentimiskonto, pilveprofiil, loitsusaldo, seotud ostu-, reklaamitasu- ja kasutuskirjed ning selles seadmes olev päevik. Sinu Google'i või Apple'i kontot see ei kustuta.</p>
+<p>Kustutamist saab taotleda ka aadressil <a href="mailto:info@otedev.ee?subject=Magical%20Journal%20account%20deletion">info@otedev.ee</a>, teemaga „Magical Journal konto kustutamine”, soovitatavalt sisselogimise e-posti aadressilt. Võime paluda mõistlikku tõendit konto kuuluvuse kohta. Ära saada paroole ega päevikutekste. Eemalt ei saa kustutada sinu kohalikke faile ega jagatud koopiaid; äpipood võib säilitada oma tehinguandmeid iseseisvalt.</p>
+<h2>8. Sinu õigused</h2>
+<p>IKÜM-is sätestatud tingimustel saad taotleda andmetega tutvumist, parandamist, kustutamist, töötlemise piiramist või ülekandmist ning esitada vastuväite õigustatud huvil põhinevale töötlemisele. Kirjuta <a href="mailto:info@otedev.ee">info@otedev.ee</a>. Vastame üldjuhul ühe kuu jooksul; seadusega lubatud tähtaja pikendamisest teatame koos põhjendusega. Kaebuse saad esitada <a href="https://www.aki.ee/">Andmekaitse Inspektsioonile</a> või oma riigi järelevalveasutusele.</p>
+<h2>9. Vanus ja muudatused</h2>
+<p>Magical Journal on mõeldud ainult vähemalt 18-aastastele täiskasvanutele. Rakendus ei ole mõeldud alla 18-aastastele lastele ega noortele. Kui arvad, et alla 18-aastane on rakenduse kaudu isikuandmeid esitanud, kirjuta <a href="mailto:info@otedev.ee">info@otedev.ee</a>, et saaksime juhtumit kontrollida ja võtta asjakohased meetmed, sealhulgas vajaduse korral andmed kustutada.</p>
+<p>Andmekasutuse muutumisel uuendame seda lehte ja kuupäeva. Olulistest muudatustest teavitame kasutajaid, kui see on nõutav.</p>
+</section></main>
+<footer>© Otedev OÜ · <a href="mailto:info@otedev.ee">info@otedev.ee</a></footer>
+</body>
+</html>
